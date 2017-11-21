@@ -1,0 +1,95 @@
+/*custom css*/
+body {
+    background: #87c5a0;
+}
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+.navbar-brand img {
+    height: 300%;
+}
+
+.navbar-default {
+    background-color: #f25601;
+    height: 100px;
+    padding-bottom: 110px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding-top: 40px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #87c5a0;
+}
+
+.carousel-indicators li {
+    background-color: #f25601;
+}
+
+.carousel-inner>.item>img {
+    margin: 0px auto;
+		}
+
+.carousel-caption {
+    color: #f25601;
+    font-size: 300%;
+    text-shadow:  -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-columns {
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+    display: inline-block;
+} 
+
+.filterDiv {
+    float: inherit;
+    background-color: #f25601;
+    color: #000;
+    font-size: 120%;
+    text-shadow:  -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+    max-width: 60%;
+    max-height: inherit;
+}
+
+.show {
+    display: block;
+}
+
+#selectors {
+    text-align: center;
+    padding: 30px;
+    margin-right: 60px;
+}
+
+label {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 700px){
+    .navbar-default .navbar-nav > li > a {
+        padding-top: 0px;
+    }
+    .navbar-collapse {
+        z-index: 2;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        width: 100%;
+        top: 100px;
+    }
+}
